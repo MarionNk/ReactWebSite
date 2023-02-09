@@ -7,7 +7,7 @@ import search from './../assets/img/girl-laptop.png'
 const Features = () => {
   return (
     
-    <div className="my-16 mx-5 relative max-w-screen-xl p-4 px-4 bg-white  sm:px-6 lg:px-8 py-26 lg:mt-20">
+    <div className="my-32 mx-5 relative max-w-screen-xl p-4 px-4 bg-white  sm:px-6 lg:px-8 py-26 lg:mt-32">
         <div className="relative">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
