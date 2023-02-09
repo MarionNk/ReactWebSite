@@ -19,7 +19,7 @@ const index = () => {
         <Features/>
         <Testimonials/>
         <Soubscribe/>
-        <Contact/>
+        {/* <Contact/> */}
         <Footer/>
     </>
   )

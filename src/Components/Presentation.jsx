@@ -19,7 +19,7 @@ export default function Presentation() {
 				</h1>
 				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className="leading-normal text-gray-600 text-lg mb-8">StudeFly est une plateforme numerique, securisee et multiservices, dediee tout d'abord aux etudiants, ensuite a tous ceux qui ont besoin de ses services</p>
 				<div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" className="z-40 w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
-					<button className="lg:mx-0 bg-blue-900 text-white text-lg font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+					<button className="lg:mx-0 bg-blue-900 text-white text-lg font-bold rounded-md py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						Nous rejoindre
 					</button>
 					<div className="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
@@ -58,11 +58,11 @@ export default function Presentation() {
 			
 		</div> */}
         
-		<div className="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-40 relative">
+		<div className="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-0 relative">
 			<svg className="xl:h-40 xl:w-full " data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
 				<path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" fill="currentColor"></path>
 			</svg>
-			<div className="bg-white w-full h-20 -mt-px"></div>
+			<div className="bg-white w-full h-10 -mt-px"></div>
 		</div>
 	</div>
 

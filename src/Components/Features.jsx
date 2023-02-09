@@ -7,10 +7,10 @@ import search from './../assets/img/girl-laptop.png'
 const Features = () => {
   return (
     
-    <div className="my-32 mx-5 relative max-w-screen-xl p-4 px-4 bg-white  sm:px-6 lg:px-8 py-26 lg:mt-32">
+    <div className="my-16 mx-5 relative max-w-screen-xl p-4 px-4 bg-white  sm:px-6 lg:px-8 py-26 lg:mt-20">
         <div className="relative">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-                <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
+                <div className="ml-auto lg:col-start-2 md:px-20 lg:max-w-2xl">
                     <p className="text-xl font-bold leading-6 text-indigo-500 uppercase">
                         Interactive
                     </p>
@@ -75,7 +75,7 @@ const Features = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="relative mt-10 lg:ml-10 relative-20 lg:mt-0 lg:col-start-1">
+                <div className="relative mt-10 lg:w-60 lg:ml-10 relative-20 lg:mt-0 lg:col-start-1">
                     <div className="relative space-y-4">
                         <div className="flex items-end justify-center space-x-4 lg:justify-start">
                             <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src={informaticien} alt="1"/>

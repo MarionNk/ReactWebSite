@@ -5,7 +5,7 @@ import {testimonials} from './../Constants/index.js'
 const Testimonials = () => {
   return (
     <div className="py-5 pt-12 lg:py-10 lg:px-32 ">
-    <h4 className="text-center text-4xl pb-4 font-extrabold leading-8 tracking-tight text-gray-900  sm:leading-9">
+    <h4 className="text-center text-4xl lg:pb-8 font-extrabold leading-8 tracking-tight text-gray-900  sm:leading-9">
         Avis et Temoignages
     </h4>
     <div className="flex-wrap items-center justify-center gap-8 text-center sm:flex">
