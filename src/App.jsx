@@ -7,6 +7,7 @@ import Prices from './Components/Prices'
 import Footer from './Components/Footer'
 import Soubscribe from './Components/Soubscribe'
 import Features from './Components/Features'
+import Contact from './Components/Contact'
 
 const App = () => 
 (
@@ -18,6 +19,7 @@ const App = () =>
     <Features/>
     <Testimonials/>
     <Soubscribe/>
+    <Contact/>
     <Footer/>
   </>
 )

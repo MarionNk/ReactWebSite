@@ -8,6 +8,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
+    
     <div className="isolate z-50 fixed bg-white w-full shadow-md">
       <div className="px-6 lg:px-12 lg:mx-12">
         <nav className="" aria-label="Global">
