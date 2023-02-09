@@ -6,13 +6,13 @@ import informaticienne from './../assets/informaticienne.png'
 const Prices = () => {
   return (
     <div className="mx-5 mb-20">
-        <h4 className="text-center text-4xl pb-12 font-extrabold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
+        <h4 className="text-center text-4xl pb-12 font-extrabold leading-8 tracking-tight text-gray-900  sm:leading-9">
             Nos Packs & Prix
         </h4>
-        <div className="flex flex-wrap items-center justify-center gap-8 sm:flex">
+        <div className="flex flex-wrap space-y-5  items-center justify-center gap-8 sm:flex">
             {prices.map((item,index)=>(
 
-                <div key={index} className="transform transition hover:scale-110 duration-300 ease-in-out hover:shadow-4xl  w-64 p-4 hover:bg-blue-500 shadow-xl rounded-2xl bg-blue-400 dark:bg-gray-800">
+                <div key={index} className="even:transform even:transition even:scale-110 even:duration-300 even:ease-in-out hover:shadow-4xl  w-64 p-4 even:bg-blue-500 shadow-xl rounded-2xl bg-blue-400">
                     <div className=" items-center text-center text-white">
                         <p className="mb-4 text-1xl font-large font-bold">
                             {item.id}
@@ -48,7 +48,7 @@ const Prices = () => {
 
             ))}
 
-            <div  className='w-64 p-4'>
+            <div  className='w-64 px-4'>
                 <img src={informaticienne} className="my-8justify-center" alt=""/>
             </div>
         </div>

@@ -5,13 +5,13 @@ import {testimonials} from './../Constants/index.js'
 const Testimonials = () => {
   return (
     <div className="py-5 pt-12 lg:py-10 lg:px-32 ">
-    <h4 className="text-center text-4xl pb-4 font-extrabold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
+    <h4 className="text-center text-4xl pb-4 font-extrabold leading-8 tracking-tight text-gray-900  sm:leading-9">
         Avis et Temoignages
     </h4>
     <div className="flex-wrap items-center justify-center gap-8 text-center sm:flex">
         {testimonials.map((item,index)=>(
-            <div key={index} className="bg-white dark:bg-gray-800 w-80 shadow-lg mx-auto my-5 rounded-xl p-4">
-                <p className="text-gray-600 dark:text-white">
+            <div key={index} className="bg-white  w-80 shadow-lg mx-auto my-5 rounded-xl p-4">
+                <p className="text-gray-600 ">
                     <span className="text-4xl font-bold text-blue-500">
                         “
                     </span>
@@ -28,7 +28,7 @@ const Testimonials = () => {
                         <span className="text-sm font-semibold text-blue-500">
                             {item.nom}
                         </span>
-                        <span className="flex items-center text-xs dark:text-gray-400">
+                        <span className="flex items-center text-xs ">
                             {item.poste}
                         </span>
                     </div>
