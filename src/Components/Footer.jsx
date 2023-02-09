@@ -4,7 +4,7 @@ import logoStudefly from './../assets/logoStudefly.png'
 const Footer = () => {
   return (
     
-    <footer className="text-center lg:text-left bg-white text-gray-800">
+    <div className="bottom-0 text-center lg:text-left bg-white text-gray-800">
         <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
             <div className="mr-12 hidden lg:block">
             <span>Suivez nous sur nos differents reseaux:</span>
@@ -76,7 +76,7 @@ const Footer = () => {
                     <img src={logoStudefly} alt=""  />
                 </div>
                 <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
+                Here you can use rows and columns to organize your div content. Lorem ipsum dolor
                 sit amet, consectetur adipisicing elit.
                 </p>
             </div>
@@ -164,7 +164,7 @@ const Footer = () => {
             <span>© 2023 Copyright: </span>
             <a className="text-white font-semibold" href="">StudeFly</a>
         </div>
-        </footer>
+    </div>
 
   )
 }

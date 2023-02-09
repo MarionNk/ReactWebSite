@@ -1,27 +1,13 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layouts from './Layouts'
 import Navbar from './Components/Navbar'
-import Presentation from './Components/Presentation'
-import Services from './Components/Services'
-import Testimonials from './Components/Testimonials'
-import Prices from './Components/Prices'
-import Footer from './Components/Footer'
-import Soubscribe from './Components/Soubscribe'
-import Features from './Components/Features'
-import Contact from './Components/Contact'
 
 const App = () => 
 (
-  <>
-    <Navbar/>
-    <Presentation/>
-    <Services/>
-    <Prices/>
-    <Features/>
-    <Testimonials/>
-    <Soubscribe/>
-    <Contact/>
-    <Footer/>
-  </>
+      <BrowserRouter>
+        <Layouts />
+      </BrowserRouter>
 )
 
 export default App
