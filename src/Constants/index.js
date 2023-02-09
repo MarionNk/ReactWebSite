@@ -75,22 +75,27 @@ export const services=[
 export const navlinks=[
     {
         id:"acceuil",
+        link:"/",
         title:"Acceuil"
     },
     {
         id: "apropos",
+        link: "/apropos",
         title: "A Propos",
     },
     {
         id: "services",
+        link: "/services",
         title: "Services",
     },
     {
         id: "prix",
+        link: "/prix",
         title: "Prix",
     },
     {
         id: "contact",
+        link: "/contact",
         title: "Contact",
     },
 ];
