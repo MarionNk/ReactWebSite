@@ -48,9 +48,9 @@ const Prices = () => {
 
             ))}
 
-            <div  className='w-64 px-4'>
+           {/*  <div  className='w-64 px-4'>
                 <img src={informaticienne} className="my-8justify-center" alt=""/>
-            </div>
+            </div> */}
         </div>
         
     </div>

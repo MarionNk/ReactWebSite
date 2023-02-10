@@ -7,16 +7,24 @@ import Prices from './../../Components/Prices'
 import Footer from './../../Components/Footer'
 import Soubscribe from './../../Components/Soubscribe'
 import Features from './../../Components/Features'
+import Partenariat from './../../Components/Partenariat'
+import Actualites from './../../Components/Actualites'
+import DevenirPartenire from './../../Components/DevenirPartenire'
 import Contact from './../../Components/Contact'
+import About from './../../Components/About'
 
 const index = () => {
   return (
     <>
         <Navbar/>
         <Presentation/>
+        <About/>
+        <Actualites/>
+        <Features/>
+        <Partenariat/>
         <Services/>
         <Prices/>
-        <Features/>
+        <DevenirPartenire/>
         <Testimonials/>
         <Soubscribe/>
         {/* <Contact/> */}

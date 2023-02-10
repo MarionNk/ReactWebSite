@@ -20,8 +20,7 @@ const Contact = () => {
                         <label for="message" className="block mb-1 text-sm font-bold text-gray-900 ">Your message</label>
                         <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave a comment..."></textarea>
                     </div>
-                    {/* <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Send message</button>
-                 */}
+                    
                     <button className="lg:mx-0 bg-blue-900 text-white text-lg w-full font-bold rounded-md py-2 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						Envoyer
 					</button>
