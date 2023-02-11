@@ -5,6 +5,8 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Prices from './Prices'
+import Services from './Services'
+import Pay from './../Components/Prices/Pay'
 
 const index = () => {
   return (
@@ -13,6 +15,9 @@ const index = () => {
         <Route exact path={"/"+navlinks[1].id} element={<About/>}/>
         <Route exact path={"/"+navlinks[4].id} element={<Contact/>}/>
         <Route exact path={"/"+navlinks[3].id} element={<Prices/>}/>
+        <Route exact path={"/"+navlinks[2].id} element={<Services/>}/>
+        <Route path="/prix/subscribe" element={<Pay />} />
+        <Route path="prix/prix/subscribe" element={<Pay />} />
         <Route exact path={"/*"} element={<><h1 className="text-4xl text-gray-800 font-bold text-center py-16">Oups! Page Not Found</h1></>}/>
     </Routes>
   )

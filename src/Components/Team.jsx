@@ -6,11 +6,11 @@ import laptop from './../assets/img/laptop-news.png'
 const Team = () => {
   return (
     
-        <div class="p-8 bg-white rounded-lg shadow pt-28">
-            <p class="text-3xl font-bold text-center  text-black">
-                Professional team
+        <div class="p-8 bg-white rounded-lg shadow mt-3">
+            <p class="text-5xl font-bold text-center  text-black">
+                La Team Studefly
             </p>
-            <p class="mb-10 pt-3 text-xl font-normal text-center text-gray-800">
+            <p class="mb-6 pt-3 text-md font-normal text-center text-gray-600">
                 Meet the best team in wolrd
             </p>
             <div class="flex flex-col items-center md:flex-row justify-center">

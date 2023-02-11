@@ -38,6 +38,9 @@ export default function Navbar() {
                   {item.title}
                 </NavLink>
               ))}
+              <button className="lg:mx-0 bg-blue-800 text-white text-md font-bold rounded-full py-0 px-6 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+                Login
+              </button>
             </div>
           </div>
           
@@ -45,10 +48,10 @@ export default function Navbar() {
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <Dialog.Panel focus="true" className="fixed inset-0 z-50 w-48 overflow-y-auto bg-white px-6 py-6 lg:hidden">
             <div className="flex items-center justify-between">
-              {/* <a href="#" className="-m-1.5 p-1.5">
+              <a href="#" className="-m-1.5 p-1.5 mr-3">
                 <span className="sr-only">Company Logo</span>
                 <img className="h-8" src={logoStudefly} alt="" />
-              </a> */}
+              </a>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -67,6 +70,9 @@ export default function Navbar() {
                       {item.title}
                     </NavLink>
                   ))}
+                    <a href='' className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
+                      Login
+                    </a>
                 </div>
                 
               </div>

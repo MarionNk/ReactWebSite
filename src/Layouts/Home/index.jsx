@@ -12,6 +12,8 @@ import Actualites from './../../Components/Actualites'
 import DevenirPartenire from './../../Components/DevenirPartenire'
 import Contact from './../../Components/Contact'
 import About from './../../Components/About'
+import GetStarted from './../../Components/GetStarted'
+import {Faq} from './../../Components/Faq'
 
 const index = () => {
   return (
@@ -19,13 +21,16 @@ const index = () => {
         <Navbar/>
         <Presentation/>
         <About/>
+        <GetStarted/>
         <Actualites/>
         <Features/>
         <Partenariat/>
         <Services/>
         <Prices/>
+        <GetStarted/>
         <DevenirPartenire/>
         <Testimonials/>
+        <Faq/>
         <Soubscribe/>
         {/* <Contact/> */}
         <Footer/>

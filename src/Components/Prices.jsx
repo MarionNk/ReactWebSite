@@ -2,10 +2,11 @@ import React from 'react'
 import {prices} from './../Constants/index.js'
 
 import informaticienne from './../assets/informaticienne.png'
+import { NavLink } from 'react-router-dom'
 
 const Prices = () => {
   return (
-    <div className="mx-5 mb-20">
+    <div className="mx-5 mt-5 mb-20">
         <h4 className="text-center text-4xl pb-12 font-extrabold leading-8 tracking-tight text-gray-900  sm:leading-9">
             Nos Packs & Prix
         </h4>
@@ -40,10 +41,13 @@ const Prices = () => {
                         ))}
                         
                     </ul>
-                    
-                    <button type="button" className="w-full px-3 py-3 text-sm font-bold text-gray-700 bg-white rounded-lg shadow hover:bg-yellow-300 ">
-                        Souscrire
-                    </button>
+                   {/*  <NavLink to='prix/subscribe'> */}
+                        <a href='prix/subscribe'>
+                            <button type="button" className="w-full px-3 py-3 text-sm font-bold text-gray-700 bg-white rounded-lg shadow hover:bg-yellow-300 ">
+                                Souscrire
+                            </button>
+                        </a>
+                    {/* </NavLink> */}
                 </div>
 
             ))}
