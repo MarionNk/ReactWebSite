@@ -15,6 +15,7 @@ import ScrollToTop from '../Helpers/ScrollToTop.jsx'
 const index = () => {
   return (
     <div className="overflow-x-hidden">
+      <ScrollToTop/>
       <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path={navlinks[1].link} element={<About/>}/>
