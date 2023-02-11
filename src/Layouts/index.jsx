@@ -17,7 +17,7 @@ const index = () => {
         <Route exact path={"/"+navlinks[3].id} element={<Prices/>}/>
         <Route exact path={"/"+navlinks[2].id} element={<Services/>}/>
         <Route path="/prix/subscribe" element={<Pay />} />
-        <Route path="prix/prix/subscribe" element={<Pay />} />
+        <Route path="/prix/prix/subscribe" element={<Pay />} />
         <Route exact path={"/*"} element={<><h1 className="text-4xl text-gray-800 font-bold text-center py-16">Oups! Page Not Found</h1></>}/>
     </Routes>
   )
