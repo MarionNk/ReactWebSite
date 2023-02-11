@@ -3,7 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logoStudefly from './../assets/logoStudefly.png'
 import {navlinks} from './../Constants/index.js'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -32,11 +32,11 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:gap-x-8">
               {navlinks.map((item) => (
-                <a key={item.id} href={item.link}  className="py-3 border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 active:border-blue-500 text-lg font-semibold leading-6 text-gray-900"
+                <Link key={item.id} href={item.link}  className="py-3 border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 active:border-blue-500 text-lg font-semibold leading-6 text-gray-900"
                   
                 >
                   {item.title}
-                </a>
+                </Link>
               ))}
               <button className="lg:mx-0 bg-blue-800 text-white text-md font-bold rounded-full py-0 px-6 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
                 Login
