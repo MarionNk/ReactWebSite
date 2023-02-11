@@ -32,7 +32,7 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:gap-x-8">
               {navlinks.map((item) => (
-                <Link key={item.id} href={item.link}  className="py-3 border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 active:border-blue-500 text-lg font-semibold leading-6 text-gray-900"
+                <Link key={item.id} to={item.link}  className="py-3 border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 active:border-blue-500 text-lg font-semibold leading-6 text-gray-900"
                   
                 >
                   {item.title}
@@ -65,10 +65,10 @@ export default function Navbar() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navlinks.map((item) => (
-                    <a key={item.id} href={item.link}  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
+                    <Link key={item.id} to={item.link}  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
                   
                       {item.title}
-                    </a>
+                    </Link>
                   ))}
                     <a href='' className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
                       Login
