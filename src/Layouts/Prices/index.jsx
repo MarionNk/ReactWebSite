@@ -10,12 +10,10 @@ import Pay from './../../Components/Prices/Pay'
 const index = () => {
   return (
     <>
-        <Navbar/>
         <div className='mt-20'></div>
         <SmallHero param1="lorem ipsum lorem ipsum lorem ipsum." param2="Nos tarifs"/>
         <Prices/>
         <PricesDetails/>
-        <Footer/>
         
     </>
   )

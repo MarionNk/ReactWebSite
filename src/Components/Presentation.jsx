@@ -5,6 +5,7 @@ import girl from './../assets/img/girl.png'
 import calendar from './../assets/img/calendar.svg'
 import congrat from './../assets/img/congrat.svg'
 import uxclass from './../assets/img/uxclass.svg'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Presentation() {
@@ -20,11 +21,11 @@ export default function Presentation() {
 				</h1>
 				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className="leading-normal text-gray-600 text-lg mb-8">StudeFly est une plateforme numerique, securisee et multiservices, dediee tout d'abord aux etudiants, ensuite a tous ceux qui ont besoin de ses services</p>
 				<div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" className="z-40 w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
-					<a href='/apropos'>
+					<NavLink to='/apropos'>
 						<button className="lg:mx-0 bg-blue-900 text-white text-lg font-bold rounded-md py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 							Nous rejoindre
 						</button>
-					</a>
+					</NavLink>
 					<div className="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						<button className=" bg-white shadow-xl w-14 h-14 rounded-full flex items-center justify-center">
 							<svg className="w-5 h-5 ml-2" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">

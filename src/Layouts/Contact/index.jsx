@@ -8,11 +8,9 @@ import SmallHero from './../../Components/SmallHero'
 const index = () => {
   return (
         <>
-            <Navbar/>
             <div className="mt-20 "></div>
             <SmallHero param1="Nous restons disponible vingt quatre heure sur vingt quatre" param2="Contact Us 24h/24"/>
             <Contact/>
-            <Footer/>
         </>
   )
 }

@@ -41,13 +41,11 @@ const Prices = () => {
                         ))}
                         
                     </ul>
-                   {/*  <NavLink to='prix/subscribe'> */}
-                        <a href='prix/subscribe'>
+                        <NavLink to='prix/subscribe'> 
                             <button type="button" className="w-full px-3 py-3 text-sm font-bold text-gray-700 bg-white rounded-lg shadow hover:bg-yellow-300 ">
                                 Souscrire
                             </button>
-                        </a>
-                    {/* </NavLink> */}
+                       </NavLink>
                 </div>
 
             ))}

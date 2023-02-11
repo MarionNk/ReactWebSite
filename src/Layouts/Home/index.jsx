@@ -18,7 +18,6 @@ import {Faq} from './../../Components/Faq'
 const index = () => {
   return (
     <>
-        <Navbar/>
         <Presentation/>
         <About/>
         <GetStarted/>
@@ -32,8 +31,6 @@ const index = () => {
         <Testimonials/>
         <Faq/>
         <Soubscribe/>
-        {/* <Contact/> */}
-        <Footer/>
     </>
   )
 }

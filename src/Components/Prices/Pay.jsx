@@ -7,7 +7,6 @@ import studeflygr2 from './../../assets/studeflygr2.png'
 const Pay = () => {
   return (
     <>
-    <Navbar/>
     <div className='mt-20'></div>
     <SmallHero param1="lorem ipsum lorem ipsum lorem ipsum" param2="Souscription a un forfait"/>
     <div className='mx-4 mt-5'>    
@@ -133,7 +132,6 @@ const Pay = () => {
         </div>
 
     </div>
-    <Footer/>
     </>
   )
 }
