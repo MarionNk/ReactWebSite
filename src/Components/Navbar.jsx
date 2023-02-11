@@ -3,7 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logoStudefly from './../assets/logoStudefly.png'
 import {navlinks} from './../Constants/index.js'
-import { Link, NavLink } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
