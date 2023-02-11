@@ -9,7 +9,6 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    
     <div className="isolate z-50 fixed top-0 bg-white w-full shadow-md">
       <div className="px-6 lg:px-12 lg:mx-12">
         <nav className="" aria-label="Global">
@@ -33,7 +32,7 @@ export default function Navbar() {
             <div className="hidden lg:flex lg:gap-x-8">
               {navlinks.map((item) => (
                 <NavLink key={item.id} to={item.link} className="py-3 border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 active:border-blue-500 text-lg font-semibold leading-6 text-gray-900"
-                  
+
                 >
                   {item.title}
                 </NavLink>

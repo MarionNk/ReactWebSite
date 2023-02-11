@@ -14,10 +14,12 @@ import Contact from './../../Components/Contact'
 import About from './../../Components/About'
 import GetStarted from './../../Components/GetStarted'
 import {Faq} from './../../Components/Faq'
+import ScrollToTop from '../../Helpers/ScrollToTop'
 
 const index = () => {
   return (
     <>
+      <ScrollToTop/>
         <Presentation/>
         <About/>
         <GetStarted/>

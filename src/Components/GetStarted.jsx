@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const GetStarted = () => {
   return (
@@ -57,12 +58,12 @@ const GetStarted = () => {
           </p>
         </div>
         <div>
-          <a
-            href="/apropos"
+          <NavLink
+            to="/apropos"
             className="inline-flex bg-blue-900 text-white items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
           >
             Get started
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>

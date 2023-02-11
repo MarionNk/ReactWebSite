@@ -6,7 +6,7 @@ import laptop from './../assets/img/laptop-news.png'
 const Team = () => {
   return (
     
-        <div class="p-8 bg-white rounded-lg shadow mt-3">
+        <div class="p-8 bg-white rounded-lg  mt-3">
             <p class="text-5xl font-bold text-center  text-black">
                 La Team Studefly
             </p>
