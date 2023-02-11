@@ -72,6 +72,20 @@ export const services=[
     },
 ]
 
+export const otherlinks=[
+    {
+        id:"website",
+        link:"/"
+    },
+    {
+        id:"auth",
+        link:"/auth"
+    },
+    {
+        id:"login",
+        link:"/login"
+    },
+]
 export const navlinks=[
     {
         id:"acceuil",

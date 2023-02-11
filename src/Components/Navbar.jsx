@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logoStudefly from './../assets/logoStudefly.png'
-import {navlinks} from './../Constants/index.js'
+import {navlinks,otherlinks} from './../Constants/index.js'
 import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
@@ -38,9 +38,9 @@ export default function Navbar() {
                 </NavLink>
 
               ))}
-              <button className="lg:mx-0 bg-blue-800 text-white text-md font-bold rounded-full py-0 px-6 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+              <NavLink to={otherlinks[1].link+otherlinks[2].link} className="lg:mx-0w-full bg-blue-800 text-white text-md font-bold rounded-full py-2 px-6 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
                 Login
-              </button>
+              </NavLink>
             </div>
           </div>
           
