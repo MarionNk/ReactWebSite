@@ -30,7 +30,7 @@ const GetStarted = () => {
               <svg
                 viewBox="0 0 52 24"
                 fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-28 lg:-ml-32 lg:-mt-16 sm:block"
               >
                 <defs>
                   <pattern
@@ -49,8 +49,7 @@ const GetStarted = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">The</span>
-            </span>{' '}
+            </span>
             Commencez des maintenant
           </h2>
           <p className="text-base text-gray-700 md:text-lg">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Actualites = () => {
   return (
-    <div>
+    <div className='mx-5'>
         <section className="flex flex-col justify-center antialiased py-4 mt-6 bg-white text-gray-900 ">
             <div className="max-w-6xl mx-auto p-4 sm:px-6 h-full">
                 
@@ -23,14 +23,14 @@ const Actualites = () => {
                         <p className="text-lg text-gray-400 flex-grow">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
                         
                     </div>
-                    <div className="h-96 my-4 p-3 relative">
+                    <div className="h-96 my-4  p-3 relative">
                         <div className=" mx-auto" >{/* style="scroll-snap-type: x mandatory;" */}
                             {/* <!-- first --> */}
                             <div className="">
                             <input className="sr-only peer" type="radio" name="carousel" id="carousel-1" defaultChecked />
                             {/* <!-- content #1 --> */}
                             <div
-                                className="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                                className="w-80 lg:w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
                                 <img className="rounded-t-lg w-96 h-64" src="https://i.ytimg.com/vi/CS5tVpY_NOU/maxresdefault.jpg"/>
                                 <div className="py-4 px-8">
                                     <h1 className="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">Lorem
@@ -60,7 +60,7 @@ const Actualites = () => {
                             <input className="sr-only peer" type="radio" name="carousel" id="carousel-2" />
                             {/* <!-- content #2 --> */}
                             <div
-                                className="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                                className="w-80 lg:w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
                                 <img className="rounded-t-lg w-96 h-64" src="https://etudes-france.org/wp-content/uploads/2022/09/image-figaro-etudiants-etrangers-france-1024x576.webp" alt="" />
                                 <div className="py-4 px-8">
                                     <h1 className="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">
@@ -90,7 +90,7 @@ const Actualites = () => {
                             <input className="sr-only peer" type="radio" name="carousel" id="carousel-3" />
                             {/* <!-- content #3 --> */}
                             <div
-                                className="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                                className="w-80 lg:w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
                                 <img className="rounded-t-lg w-96 h-64" src="https://bourses-etudes.net/wp-content/uploads/2021/08/etudier-en-France-pour-les-etudiants-etrangers.png" alt="" />
                                 <div className="py-4 px-8">
                                     <h1 className="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">

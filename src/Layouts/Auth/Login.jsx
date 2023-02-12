@@ -5,11 +5,13 @@ import studeflygr2 from './../../assets/studeflygr2.png'
 import { otherlinks } from '../../Constants'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
+import ScrollToTop from '../../Helpers/ScrollToTop'
 
 const Login = () => {
   return (
     <section className="">
         <Navbar/>
+        <ScrollToTop/>
         <div className=' mt-16'></div>
         <SmallHero param1={"lorem ipsum lorem ipsum lorem."}  param2={"Connectes-toi a Studefly"}/>
         <div className="px-6 h-full mt-7 text-gray-800">
