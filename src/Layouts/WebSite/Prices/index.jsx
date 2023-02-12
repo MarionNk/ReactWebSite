@@ -6,6 +6,7 @@ import Footer from '../../../Components/Footer'
 import SmallHero from '../../../Components/SmallHero'
 import PricesDetails from '../../../Components/Prices/PricesDetails'
 import Pay from '../../../Components/Prices/Pay'
+import PaymentSecured from '../../../Components/Prices/PaymentSecured'
 
 const index = () => {
   return (
@@ -13,6 +14,7 @@ const index = () => {
         <div className='mt-20'></div>
         <SmallHero param1="lorem ipsum lorem ipsum lorem ipsum." param2="Nos tarifs"/>
         <Prices/>
+        <PaymentSecured/>
         <PricesDetails/>
         
     </>

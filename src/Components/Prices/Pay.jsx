@@ -12,15 +12,15 @@ const Pay = () => {
     <div className='mx-4 mt-5'>    
         <div class="grid sm:px-10 lg:grid-cols-2 lg:px-20 xl:px-32">
         <div class="px-4 pt-8">
-            <p class="text-xl font-bold">Order Summary</p>
-            <p class="text-gray-600">Check your items. And select a suitable shipping method.</p>
+            <p class="text-xl font-bold">Detail de la souscription</p>
+            <p class="text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt vitae dicta magnam debitis non, tenetur quos exercitationem r.</p>
             <div class="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6">
             <div class="flex flex-col rounded-lg bg-white sm:flex-row">
                 <img class="m-2 h-24 w-28 rounded-md border object-cover object-center" src={studeflygr2} alt="" />
                 <div class="flex w-full flex-col px-4 py-4">
                 <span class="font-semibold">Pack Admission</span>
                 <span class="float-right text-gray-600">42EU - 8.5US</span>
-                <p class="text-lg font-bold">$138.99</p>
+                <p class="text-lg font-bold">€138.99</p>
                 </div>
             </div>
             </div>
@@ -63,8 +63,8 @@ const Pay = () => {
             </form>
         </div>
         <div class="mt-10 shadow-md rounded-md  px-4 mx-4 pt-8 lg:mt-0">
-            <p class="text-xl font-bold">Payment Details</p>
-            <p class="text-gray-600">Complete your order by providing your payment details.</p>
+            <p class="text-xl font-bold">Details du paiement</p>
+            <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laudantium, dolore quos exercitationem veniam porro </p>
             <div class="">
             <label for="email" class="mt-4 mb-2 block text-sm font-bold">Email</label>
             <div class="relative">
@@ -75,9 +75,9 @@ const Pay = () => {
                 </svg>
                 </div>
             </div>
-            <label for="card-holder" class="mt-4 mb-2 block text-sm font-bold">Card Holder</label>
+            <label for="card-holder" class="mt-4 mb-2 block text-sm font-bold">Proprietaire</label>
             <div class="relative">
-                <input type="text" id="card-holder" name="card-holder" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Your full name here" />
+                <input type="text" id="card-holder" name="card-holder" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Le nom complet ici" />
                 <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
@@ -98,12 +98,12 @@ const Pay = () => {
                 <input type="text" name="credit-expiry" class="w-full rounded-md border border-gray-200 px-2 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="MM/YY" />
                 <input type="text" name="credit-cvc" class="w-1/6 flex-shrink-0 rounded-md border border-gray-200 px-2 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="CVC" />
             </div>
-            <label for="billing-address" class="mt-4 mb-2 block text-sm font-bold">Billing Address</label>
+            <label for="billing-address" class="mt-4 mb-2 block text-sm font-bold">Lorem Address</label>
             <div class="flex flex-col sm:flex-row">
                 <div class="relative flex-shrink-0 sm:w-7/12">
                 <input type="text" id="billing-address" name="billing-address" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Street Address" />
                 <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
-                    <img class="h-4 w-4 object-contain" src="https://flagpack.xyz/_nuxt/4c829b6c0131de7162790d2f897a90fd.svg" alt="" />
+                    <img class="h-4 w-4 object-contain" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAMFBMVEX////tKTsnN4wyQZIaLYh3f7D19vv0h4/sHTPuNUY8Spd9hLT0jJTtKj0vPpEmOI3EPaABAAABDUlEQVR4nO3QSQGAMBAEsIUC5a5/t5hgfomE1NlSxrVVzP0cMfWOOWRZgyd9n2KqpUqcOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06c/OUD0Dbaj8+hhpAAAAAASUVORK5CYII=" alt="" />
                 </div>
                 </div>
                 <select type="text" name="billing-state" class="w-full rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500">
@@ -114,20 +114,20 @@ const Pay = () => {
 
             <div class="mt-6 border-t border-b py-2">
                 <div class="flex items-center justify-between">
-                <p class="text-sm font-bold text-gray-900">Subtotal</p>
-                <p class="font-semibold text-gray-900">$399.00</p>
+                <p class="text-sm font-bold text-gray-900">SousTotal</p>
+                <p class="font-semibold text-gray-900">€399.00</p>
                 </div>
                 <div class="flex items-center justify-between">
-                <p class="text-sm font-bold text-gray-900">Shipping</p>
-                <p class="font-semibold text-gray-900">$8.00</p>
+                <p class="text-sm font-bold text-gray-900">Frais</p>
+                <p class="font-semibold text-gray-900">€8.00</p>
                 </div>
             </div>
             <div class="mt-6 flex items-center justify-between">
                 <p class="text-sm font-bold text-gray-900">Total</p>
-                <p class="text-2xl font-semibold text-gray-900">$408.00</p>
+                <p class="text-2xl font-semibold text-gray-900">€408.00</p>
             </div>
             </div>
-            <button class="mt-4 mb-8 w-full rounded-md bg-blue-900 px-6 py-3 font-bold text-white">Place Order</button>
+            <button class="mt-4 mb-8 w-full rounded-md bg-blue-900 px-6 py-3 font-bold text-white">Souscrire</button>
         </div>
         </div>
 

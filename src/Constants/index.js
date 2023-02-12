@@ -57,16 +57,19 @@ export const testimonials=[
 export const services=[
     {
         id:"s1",
+        link:"https://svgsilh.com/svg/2081280-ffffff.svg",
         title:"Projet d'etude, Vacances et Tourisme en France",
         detail:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur error facilis numquam, "
     },
     {
         id:"s3",
+        link:"https://svgsilh.com/svg/2442462-ffffff.svg",
         title:"Services Annexes",
         detail:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur error facilis numquam, onsectetur adipisicing elit. fewrrr Consequuntur error facilis numquam,"
     },
     {
         id:"s2",
+        link:"https://svgsilh.com/svg/308936-ffffff.svg",
         title:"Gestion de logement & Integration en france",
         detail:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur error facilis numquam, "
     },
@@ -84,6 +87,10 @@ export const otherlinks=[
     {
         id:"login",
         link:"/login"
+    },
+    {
+        id:"register",
+        link:"/register"
     },
 ]
 export const navlinks=[

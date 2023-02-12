@@ -43,7 +43,7 @@ import React,{useState} from 'react'
       
  export const Faq = () => {
         return (
-          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-15">
             <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
               <div className="flex flex-col mb-16 sm:text-center">
                 <a href="/" className="mb-6 sm:mx-auto">
@@ -88,9 +88,9 @@ import React,{useState} from 'react'
                           height="24"
                         />
                       </svg>
-                      <span className="relative">Some</span>
+                      <span className="relative"></span>
                     </span>{' '}
-                    FAQ's
+                    Questions Frequentes
                   </h2>
                   <p className="text-base text-gray-700 md:text-lg">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -99,19 +99,19 @@ import React,{useState} from 'react'
                 </div>
               </div>
               <div className="space-y-4">
-                <Item className="shadow-lg bg-slate-500" title="The quick, brown fox jumps over a lazy dog?">
+                <Item className="shadow-lg bg-slate-500" title="Ya-t'il une restriction d'age?">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque rem aperiam, eaque ipsa quae.
                 </Item>
-                <Item title="The first mate and his Skipper too will do?">
+                <Item title="Combien coute le programme studefly?">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque rem aperiam, eaque ipsa quae.
                 </Item>
-                <Item title="Is the Space Pope reptilian!?">
+                <Item title="Quel est la meilleure periode pour postuler?">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque rem aperiam, eaque ipsa quae.
                 </Item>
-                <Item title="How much money you got on you?">
+                <Item title="Pourais-je avoir un devis?">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque rem aperiam, eaque ipsa quae.
                 </Item>

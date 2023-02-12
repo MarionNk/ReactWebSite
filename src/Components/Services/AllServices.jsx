@@ -1,11 +1,13 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import { navlinks } from '../../Constants'
 
 const AllServices = () => {
   return (
     <section className=" text-gray-800 ">
 	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 		<div>
-			<h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">Satisfait ou remboursé</h2>
+			<h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">Nous œuvrons pour le bien-être de nos candidats</h2>
 			<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-500">Quando cetero his ne, eum admodum sapientem ut.</p>
 		</div>
 		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
@@ -22,7 +24,7 @@ const AllServices = () => {
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-bold leading-6 text-gray-900">Per ei quaeque sensibus</h4>
+							<h4 className="text-lg font-bold leading-6 text-gray-900">Point cle du service</h4>
 							<p className="mt-2 text-gray-400">Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.</p>
 						</div>
 					</div>
@@ -35,7 +37,7 @@ const AllServices = () => {
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-bold leading-6 text-gray-900">Cu imperdiet posidonium sed</h4>
+							<h4 className="text-lg font-bold leading-6 text-gray-900">Point cle du service</h4>
 							<p className="mt-2 text-gray-400">Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.</p>
 						</div>
 					</div>
@@ -48,7 +50,7 @@ const AllServices = () => {
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-bold leading-6 text-gray-900">Nulla omittam sadipscing mel ne</h4>
+							<h4 className="text-lg font-bold leading-6 text-gray-900">Point cle du service</h4>
 							<p className="mt-2 text-gray-400">At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.</p>
 						</div>
 					</div>
@@ -57,6 +59,10 @@ const AllServices = () => {
 			<div aria-hidden="true" className="mt-10 lg:mt-0">
 				<img src="https://images.ctfassets.net/ggqk0ksrp1li/6a6ptllBf8IemqLe1gAUF3/8212867b62fa4dad106339004276dc88/preparation_arrivee_france_.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
 			</div>
+			
+			<NavLink to={navlinks[3].link} className="py-3 px-6 text-lg w-2/4 bg-blue-900 hover:bg-blue-900 focus:ring-blue-800 focus:ring-offset-blue-200 text-white  transition ease-in duration-200 text-center font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+					Souscrire
+			</NavLink>
 		</div>
 		<div>
 			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
@@ -73,7 +79,7 @@ const AllServices = () => {
 								</div>
 							</div>
 							<div className="ml-4">
-								<h4 className="text-lg font-bold leading-6 text-gray-900">Cibo augue offendit has ad</h4>
+								<h4 className="text-lg font-bold leading-6 text-gray-900">Point cle du service</h4>
 								<p className="mt-2 text-gray-400">An per velit appellantur, ut utinam minimum nominavi sit, odio nostro habemus ne nec. Ne sonet regione contentiones est.</p>
 							</div>
 						</div>
@@ -86,7 +92,7 @@ const AllServices = () => {
 								</div>
 							</div>
 							<div className="ml-4">
-								<h4 className="text-lg font-bold leading-6 text-gray-900">At eum ferri luptatum lobortis</h4>
+								<h4 className="text-lg font-bold leading-6 text-gray-900">Point cle du service</h4>
 								<p className="mt-2 text-gray-400">Te per quidam maiorum ocurreret, etiam delicatissimi usu ad. Ne has quod periculis. Te sit primis iisque efficiantur.</p>
 							</div>
 						</div>
@@ -99,16 +105,19 @@ const AllServices = () => {
 								</div>
 							</div>
 							<div className="ml-4">
-								<h4 className="text-lg font-bold leading-6 text-gray-900">Dicunt verterem evertitur eu sea</h4>
+								<h4 className="text-lg font-bold leading-6 text-gray-900">Point cle du service</h4>
 								<p className="mt-2 text-gray-400">Audire principes rationibus eam an, autem nominavi luptatum per te. Sumo fabulas vim eu, sonet saperet eleifend ut vix.</p>
 							</div>
 						</div>
 					</div>
+					
 				</div>
+				
 				<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
 					<img src="https://source.unsplash.com/random/361x481" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
 				</div>
 			</div>
+		
 		</div>
 	</div>
 </section>

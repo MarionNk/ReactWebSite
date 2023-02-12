@@ -22,14 +22,12 @@ const index = () => {
       <ScrollToTop/>
         <Presentation/>
         <About/>
-        <GetStarted/>
-        <Actualites/>
-        <Features/>
-        <Partenariat/>
         <Services/>
-        <Prices/>
         <GetStarted/>
+        <Prices/>
+        <Actualites/>
         <DevenirPartenire/>
+        <Partenariat/>
         <Testimonials/>
         <Faq/>
         <Soubscribe/>

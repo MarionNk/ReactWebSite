@@ -8,10 +8,10 @@ const Team = () => {
     
         <div className="p-8 bg-white rounded-lg  mt-3">
             <p className="text-5xl font-bold text-center  text-black">
-                La Team Studefly
+                Le Group Studefly
             </p>
             <p className="mb-6 pt-3 text-md font-normal text-center text-gray-600">
-                Meet the best team in wolrd
+            Rencontrez la meilleure équipe du monde
             </p>
             <div className="flex flex-col items-center md:flex-row justify-center">
                 <div className="p-4">

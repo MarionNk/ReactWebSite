@@ -9,7 +9,7 @@ const index = () => {
   return (
         <>
             <div className="mt-20 "></div>
-            <SmallHero param1="Nous restons disponible vingt quatre heure sur vingt quatre" param2="Contact Us 24h/24"/>
+            <SmallHero param1="Nous restons disponible vingt quatre heure sur vingt quatre" param2="Contactez-nous 24h/24"/>
             <Contact/>
         </>
   )

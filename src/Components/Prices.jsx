@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom'
 
 const Prices = () => {
   return (
-    <div className="mx-5 mt-5 mb-20">
-        <h4 className="text-center text-4xl pb-12 font-extrabold leading-8 tracking-tight text-gray-900  sm:leading-9">
-            Nos Packs & Prix
+    <div className="mx-5 mt-7 mb-20">
+        <h4 className="text-center text-4xl pb-12 font-extrabold leading-8 tracking-tight text-gray-700  sm:leading-9">
+            Nos Packs & Nos Tarifs
         </h4>
         <div className="flex flex-wrap space-y-5  items-center justify-center gap-8 sm:flex">
             {prices.map((item,index)=>(
