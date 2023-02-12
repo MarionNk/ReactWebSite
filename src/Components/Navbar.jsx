@@ -65,14 +65,14 @@ export default function Navbar() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navlinks.map((item) => (
-                    <a key={item.id} href={item.link}  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
+                    <NavLink key={item.id} to={item.link} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
                   
                       {item.title}
-                    </a>
+                    </NavLink>
                   ))}
-                    <a href='' className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
+                    <NavLink to={otherlinks[1].link+otherlinks[2].link} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">
                       Login
-                    </a>
+                    </NavLink>
                 </div>
                 
               </div>

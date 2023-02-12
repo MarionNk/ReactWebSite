@@ -17,7 +17,7 @@ const Login = () => {
             className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6"
             >
             
-                <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
+                <div className="xl:ml-20 xl:w-5/12 w-10/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
                     <form>
                     {/* <div className="flex flex-row pt-8 items-center justify-center lg:justify-start">
                         <p className="text-lg mb-0 mr-4">Sign in with</p>
@@ -84,7 +84,7 @@ const Login = () => {
                         type="password"
                         className="form-control block w-full px-4 py-2 text-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-800 focus:outline-none"
                         id="exampleFormControlInput2"
-                        placeholder="Mot de Pass"
+                        placeholder="Mot de Passe"
                         />
                     </div>
 

@@ -84,7 +84,7 @@ const Pay = () => {
                 </svg>
                 </div>
             </div>
-            <label for="card-no" class="mt-4 mb-2 block text-sm font-bold">Card Details</label>
+            <label for="card-no" class="mt-4 mb-2 block text-sm font-bold">Detail Carte</label>
             <div class="flex">
                 <div class="relative w-7/12 flex-shrink-0">
                 <input type="text" id="card-no" name="card-no" class="w-full rounded-md border border-gray-200 px-2 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="xxxx-xxxx-xxxx-xxxx" />
@@ -101,13 +101,13 @@ const Pay = () => {
             <label for="billing-address" class="mt-4 mb-2 block text-sm font-bold">Lorem Address</label>
             <div class="flex flex-col sm:flex-row">
                 <div class="relative flex-shrink-0 sm:w-7/12">
-                <input type="text" id="billing-address" name="billing-address" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Street Address" />
+                <input type="text" id="billing-address" name="billing-address" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Rue" />
                 <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
                     <img class="h-4 w-4 object-contain" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAMFBMVEX////tKTsnN4wyQZIaLYh3f7D19vv0h4/sHTPuNUY8Spd9hLT0jJTtKj0vPpEmOI3EPaABAAABDUlEQVR4nO3QSQGAMBAEsIUC5a5/t5hgfomE1NlSxrVVzP0cMfWOOWRZgyd9n2KqpUqcOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06c/OUD0Dbaj8+hhpAAAAAASUVORK5CYII=" alt="" />
                 </div>
                 </div>
                 <select type="text" name="billing-state" class="w-full rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500">
-                <option value="State">State</option>
+                <option value="State">Etat</option>
                 </select>
                 <input type="text" name="billing-zip" class="flex-shrink-0 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none sm:w-1/6 focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="ZIP" />
             </div>

@@ -11,7 +11,7 @@ import { NavLink } from 'react-router-dom'
 export default function Presentation() {
   return (
     
-    <div className=" pt-24 mb-6 border-b-2 border-gray-100">
+    <div className=" pt-24 mb-6">
         
 		<div className=" max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start  lg:px-12">
 			{/* <!--Left Col--> */}
