@@ -3,7 +3,7 @@ import React from 'react'
 const Actualites = () => {
   return (
     <div>
-        <section className="flex flex-col justify-center antialiased py-4 bg-white text-gray-900 ">
+        <section className="flex flex-col justify-center antialiased py-4 mt-6 bg-white text-gray-900 ">
             <div className="max-w-6xl mx-auto p-4 sm:px-6 h-full">
                 
                 <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
@@ -23,7 +23,7 @@ const Actualites = () => {
                         <p className="text-lg text-gray-400 flex-grow">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
                         
                     </div>
-                    <div className="min-h-screen p-3 relative">
+                    <div className="h-96 my-4 p-3 relative">
                         <div className=" mx-auto" >{/* style="scroll-snap-type: x mandatory;" */}
                             {/* <!-- first --> */}
                             <div className="">

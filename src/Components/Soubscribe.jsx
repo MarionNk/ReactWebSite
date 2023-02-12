@@ -19,7 +19,7 @@ const Soubscribe = () => {
                     <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
                         <input id="email" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md  border-gray-300  focus:border-blue-200 " placeholder="Address email"/>
 
-                        <NavLink to={navlinks[3].link} className="w-full px-5 py-2 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto lg:mx-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                        <NavLink to={navlinks[3].link} className="w-full px-5 py-2 text-sm font-bold tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto lg:mx-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                             Souscrire
                         </NavLink>
                     </div>

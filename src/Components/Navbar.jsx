@@ -4,9 +4,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logoStudefly from './../assets/logoStudefly.png'
 import {navlinks,otherlinks} from './../Constants/index.js'
 import { NavLink } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const history=useLocation();
 
   return (
     <div className="isolate z-50 fixed top-0 bg-white w-full shadow-md">
@@ -30,8 +32,11 @@ export default function Navbar() {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-8">
-              {navlinks.map((item) => (
-                <NavLink key={item.id} to={item.link} className="py-3 border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 active:border-blue-500 text-lg font-semibold leading-6 text-gray-900"
+            {/* {console.log(history.pathname.includes("services"))} */}
+              {navlinks.map((item,index) => (
+                              
+                <NavLink  key={index} to={item.link} className={(history.pathname.includes(item.link)&&item.link!="/")||(item.link.length==1 && history.pathname=="/")?"py-3 border-b-2 border-transparent hover:text-gray-800 border-blue-500 hover:border-blue-500 text-lg font-semibold leading-6 text-gray-900 "
+                :"py-3 text-lg font-semibold leading-6 text-gray-900"}
 
                 >
                   {item.title}

@@ -112,7 +112,7 @@ export const navlinks=[
     {
         id: "prix",
         link: "/prix",
-        title: "Prix",
+        title: "Nos Tarifs",
     },
     {
         id: "contact",

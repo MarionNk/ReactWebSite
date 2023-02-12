@@ -16,7 +16,7 @@ const About = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.
                         </p>
                         <div className="w-full md:w-1/3">
-                            <NavLink to='/apropos' className="py-4 px-6 text-lg  bg-blue-900 hover:bg-blue-900 focus:ring-blue-800 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <NavLink to={navlinks[1].link} className="py-4 px-6 text-lg  bg-blue-600 hover:bg-blue-600 focus:ring-blue-800 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-full ">
                                     En savoir plus
                             </NavLink>
                         </div>
