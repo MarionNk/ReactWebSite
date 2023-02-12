@@ -5,14 +5,14 @@ const TestAcceuil = () => {
     <div>
         {/* <!-- component --> */}
 <div className="h-screen w-full flex overflow-hidden select-none">
-	<nav className="w-24 flex flex-col items-center bg-white shadow-md dark:bg-gray-800 py-4">
+	<nav className="w-24 flex flex-col items-center bg-white shadow-md py-4">
 		{/* <!-- Left side NavBar --> */}
 
 		<div>
 			{/* <!-- App Logo --> */}
 
 			<svg
-				className="h-8 w-8 fill-current text-blue-600 dark:text-blue-300"
+				className="h-8 w-8 fill-current text-blue-600 "
 				viewBox="0 0 24 24">
 				<path
 					d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3m6.82
@@ -22,10 +22,10 @@ const TestAcceuil = () => {
 
 		</div>
 
-		<ul className="mt-2 text-gray-700 dark:text-gray-400 capitalize">
+		<ul className="mt-2 text-gray-700  capitalize">
 			{/* <!-- Links --> */}
 
-			<li className="mt-3 p-2 text-blue-600 dark:text-blue-300 rounded-lg">
+			<li className="mt-3 p-2 text-blue-600  rounded-lg">
 				<a href="#" className=" flex flex-col items-center">
 					<svg className="fill-current h-5 w-5" viewBox="0 0 24 24">
 						<path
@@ -56,7 +56,7 @@ const TestAcceuil = () => {
 			</li>
 
 			<li
-				className="mt-3 p-2 hover:text-blue-600 dark-hover:text-blue-300
+				className="mt-3 p-2 hover:text-blue-600 
 				rounded-lg">
 				<a
 					href="#"
@@ -127,7 +127,7 @@ const TestAcceuil = () => {
 
 		<div
 			className="mt-auto flex items-center p-2 text-blue-700 bg-purple-200
-			dark:text-blue-500 rounded-full">
+			 rounded-full">
 			{/* <!-- important action --> */}
 
 			<a href="#">
@@ -142,21 +142,21 @@ const TestAcceuil = () => {
 		</div>
 
 	</nav>
-	<main className="my-1 pt-2 pb-2 px-10 flex-1  dark:bg-black rounded-l-lg
+	<main className="my-1 pt-2 pb-2 pl-4 lg:px-10 flex-1 rounded-l-lg
 		transition duration-500 ease-in-out overflow-y-auto">
-		<div className="flex flex-col capitalize text-3xl">
+		<div className="flex flex-col capitalize text-2xl">
 			<span className="font-semibold">hello,</span>
 			<span>Bienvenu sur StudeFly!</span>
 
 		</div>
-		<div className="lg:flex ">
-			<div className="mr-6 lg:w-1/2 mt-8 py-2 flex-shrink-0 flex flex-col bg-white
-				dark:bg-gray-600 rounded-lg">
+		<div className="lg:flex w-4/4">
+			<div className="mr-6 w-2/2 lg:w-1/2 mt-8 py-2 flex-shrink-0 flex flex-col bg-white
+				rounded-lg">
 				{/* <!-- Card list container --> */}
 
 				<h3
 					className="flex items-center pt-1 pb-1 px-8 text-lg font-semibold
-					capitalize dark:text-gray-300">
+					capitalize text-gray-800">
 					{/* <!-- Header --> */}
 					<span>nearby jobs</span>
 					<button className="ml-2">
@@ -171,7 +171,7 @@ const TestAcceuil = () => {
 					</button>
 				</h3>
 
-				<div>
+				<div className=''>
 					{/* <!-- List --> */}
 
 					<ul className="pt-1 pb-2 px-3 overflow-y-auto">
@@ -180,12 +180,12 @@ const TestAcceuil = () => {
 
 							<a
 								className="p-5 flex flex-col justify-between
-								bg-gray-100 dark:bg-gray-200 rounded-lg"
+								bg-gray-100 rounded-lg"
 								href="#">
 
 								<div
 									className="flex items-center justify-between
-									font-semibold capitalize dark:text-gray-700">
+									font-semibold capitalize text-gray-700">
 									{/* <!-- Top section --> */}
 
 									<span>Message 1</span>
@@ -249,12 +249,12 @@ const TestAcceuil = () => {
 
 							<a
 								className="p-5 flex flex-col justify-between
-								bg-gray-100 dark:bg-gray-200 rounded-lg"
+								bg-gray-100 rounded-lg"
 								href="#">
 
 								<div
 									className="flex items-center justify-between
-									font-semibold capitalize dark:text-gray-700">
+									font-semibold capitalize text-gray-700">
 									{/* <!-- Top section --> */}
 
 									<span>Message 2</span>
@@ -319,7 +319,7 @@ const TestAcceuil = () => {
 					<a
 						href="#"
 						className="flex justify-center capitalize text-blue-500
-						dark:text-blue-200">
+						">
 						<span>see all</span>
 					</a>
 
@@ -327,7 +327,7 @@ const TestAcceuil = () => {
 
 			</div>
 
-			<div className="mr-6 lg:w-1/2 mt-8 py-2 flex-shrink-0 flex flex-col
+			<div className="mr-6 w-2/2 lg:w-1/2 mt-8 py-2 flex-shrink-0 flex flex-col
 				bg-blue-800 rounded-lg text-white">
 
 				<h3
@@ -369,8 +369,8 @@ const TestAcceuil = () => {
 
 	</main>
 
-	<aside className="hidden lg:visible w-1/4 my-1 mr-1 px-6 py-4 flex-col bg-white shadow-md dark:bg-black
-		dark:text-gray-400 rounded-r-lg overflow-y-auto">
+	<aside className="hidden lg:visible w-1/4 my-1 mr-1 px-6 py-4 flex-col bg-white shadow-md 
+		text-gray-400 rounded-r-lg overflow-y-auto">
 		{/* <!-- Right side NavBar --> */}
 
 		<div className="flex items-center justify-between">

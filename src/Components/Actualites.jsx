@@ -24,7 +24,7 @@ const Actualites = () => {
                         
                     </div>
                     <div className="h-96 my-4  p-3 relative">
-                        <div className=" mx-auto" >{/* style="scroll-snap-type: x mandatory;" */}
+                        <div className=" mx-auto " >{/* style="scroll-snap-type: x mandatory;" */}
                             {/* <!-- first --> */}
                             <div className="">
                             <input className="sr-only peer" type="radio" name="carousel" id="carousel-1" defaultChecked />
